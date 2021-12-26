@@ -50,7 +50,7 @@ func (c *SAPAPICaller) AsyncGetXXXXXXXX(xxxxxxxx, xxxxxxxx string, accepter []st
 }
 
 func (c *SAPAPICaller) Header(xxxxxxxx string) {
-	headerData, err := c.callXXXXXXXXSrvAPIRequirementHeader("A_XXXXXXXX", xxxxxxxx)
+	headerData, err := c.callXXXXXXXXSrvAPIRequirementHeader("A_XXXXXXXXHeader", xxxxxxxx)
 	if err != nil {
 		c.log.Error(err)
 		return
